@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://github.com/MannemDivyaSai/My-portfolio" target="_blank">
-      <img src="https://Dashboard.png" alt="Dashboard.png">
+      <img src="/Dashboard.png" alt="Divya's Portfolio Project">
     </a>
   <br />
 
@@ -648,6 +648,7 @@ All SVGs, images, and custom icons used in this project are included in the `/pu
 ## <a name="more">🚀 More</a>
 Interested in working together or seeing more projects?  
 Contact me at [mannemdivyasai@gmail.com](mailto:mannemdivyasai@gmail.com) or explore my portfolio on [GitHub](https://github.com/MannemDivyaSai/My-portfolio)
+
 
 
 
