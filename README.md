@@ -12,10 +12,10 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h3 align="center">A Modern Next.js Portfolio</h3>
+  <h3 align="center">Divya's Portfolio</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     This is my personal developer portfolio built with Next.js, Three.js, Framer Motion, and Tailwind CSS. Inspired by JavaScript Mastery, it showcases my work and skills in a unique and engaging way.
     </div>
 </div>
 
@@ -60,8 +60,6 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **3D Elements**:  Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
 
-👉 **Testimonials**: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
-
 👉 **Work Experience**: Prominent display of professional background for emphasis and credibility.
 
 👉 **Canvas Effect**: Innovative use of HTML5 canvas to create visually striking effects in the "approaches" section.
@@ -85,7 +83,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/portfolio.git
+git clone https://github.com/MannemDivyaSai/My-portfolio.git
 cd portfolio
 ```
 
@@ -114,19 +112,19 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Certifications", link: "#certifications" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Adept at transforming complex ideas into practical, data-driven solutions",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/a2.png",
     spareImg: "",
   },
   {
@@ -162,8 +160,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Building a Hybrid Recommendation Engine.",
+    description: "Focusing on hybrid methodologies to deliver truly personalized movie recommendations.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -185,130 +183,115 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Cervical Cancer Classification",
+    des: "Built a deep learning model to classify cervical cells with 92% accuracy",
+    img: "/Cervical.png",
+    iconLists: ["/ipython.png", "/ijupyter.png", "/inumpy.png", "/itensorflow.png", "/imatplotlib.png"],
+    link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Hybrid Movie Recommendator",
+    des: "Developed a web app combining collaborative and content-based filtering",
+    img: "/Movie.png",
+    iconLists: ["/iflask.png", "/iapi.png", "/ihtml.png", "/icss.png", "/isql.png"],
+    link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Dynamic Destination Website",
+    des: "Created a responsive and visually engaging travel website with dynamic navigation",
+    img: "/Travel.png",
+    iconLists: ["/ihtml.png", "/icss.png", "/ijs.png", "/iapi.png"],
+    link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Business Intelligence Dashboard",
+    des: "Developed a BI solution in Power BI using DAX and Power Query for data visualization",
+    img: "/Dashboard.png",
+    iconLists: ["/ipowerbi.png", "/isql.png","/iexcel.png", "/igit.png"],
+    link: "/ui.apple.com",
   },
 ];
 
-export const testimonials = [
+export const certificateItems = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    id: 1,
+    title: "Business Intelligence using Power BI",
+    desc: "Issued by Skill Nation, 2024.",
+    thumbnail: "/c1.png", 
+    className: "md:col-span-2",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    id: 2,
+    title: "SQL (Basic)",
+    desc: "Issued by HackerRank, 2024.",
+    thumbnail: "/C2.png", 
+    className: "md:col-span-2",
   },
 ];
+
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "python",
+    img: "/python.svg",
+    nameImg: "/pythonName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "jupyter",
+    img: "/jupyter.svg",
+    nameImg: "/jupyterName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "flask",
+    img: "/flask.svg",
+    nameImg: "/flaskName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "mysql",
+    img: "/mysql.svg",
+    nameImg: "/mysqlName.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "javascript",
+    img: "/javascript.svg",
+    nameImg: "/javascriptName.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full-Stack Project Development",
+    desc: "Web solutions by managing the development pipeline from concept through Git version control, deployment, and API integration",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Data Analysis & Visualization Specialist",
+    desc: "Skilled in utilizing Power BI and SQL to perform data cleaning, EDA, and construct insightful dashboards for practical decision-making",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Team Lead — Annual Cultural Fest (Kuruksastra)",
+    desc: "Co-led a cross-functional student team managing scheduling, stalls, and stage events, strengthening leadership and teamwork through end-to-end coordination",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Hackathon Organizer & POC (University)",
+    desc: "Coordinated registration, sponsorship outreach, and logistics, serving as the primary POC to ensure smooth event operations and collaboration among teams",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -659,13 +642,10 @@ style={{
 
 ## <a name="links">🔗 Assets</a>
 
-Assets used in the project can be found [here](https://drive.google.com/file/d/1ZmtiMilUYTp1wkiXWMFX6AUk-msE981-/view?usp=sharing)
+All SVGs, images, and custom icons used in this project are included in the `/public` folder within the repository. No external download is necessary—everything you need is contained here.
+
 
 ## <a name="more">🚀 More</a>
-**Advance your skills with Next.js Pro Course**
+Interested in working together or seeing more projects?  
+Contact me at [mannemdivyasai@gmail.com](mailto:mannemdivyasai@gmail.com) or explore my portfolio on [GitHub](https://github.com/MannemDivyaSai/My-portfolio)
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
