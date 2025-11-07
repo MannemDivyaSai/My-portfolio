@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://github.com/MannemDivyaSai/My-portfolio" target="_blank">
-      <img src="https://Travel.png" alt="Divya's Portfolio Banner">
+      <img src="https://Travel.png" alt="Travel.png">
     </a>
   <br />
 
@@ -17,14 +17,6 @@
   <div align="center">
     This is my personal developer portfolio, built with Next.js, Three.js, Framer Motion, and Tailwind CSS. Here you’ll find my projects, experience, and skills in web development and data-driven applications.
   </div>
-</div>
-
-
-  <h3 align="center">Divya's Portfolio</h3>
-
-   <div align="center">
-     This is my personal developer portfolio built with Next.js, Three.js, Framer Motion, and Tailwind CSS. Inspired by JavaScript Mastery, it showcases my work and skills in a unique and engaging way.
-    </div>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -656,5 +648,6 @@ All SVGs, images, and custom icons used in this project are included in the `/pu
 ## <a name="more">🚀 More</a>
 Interested in working together or seeing more projects?  
 Contact me at [mannemdivyasai@gmail.com](mailto:mannemdivyasai@gmail.com) or explore my portfolio on [GitHub](https://github.com/MannemDivyaSai/My-portfolio)
+
 
 
