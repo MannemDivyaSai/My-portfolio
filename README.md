@@ -1,16 +1,24 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
+    <a href="https://github.com/MannemDivyaSai/My-portfolio" target="_blank">
+      <img src="https://Travel.png" alt="Divya's Portfolio Banner">
     </a>
   <br />
 
   <div>
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
-    <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="Next.js" />
+    <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="Framer Motion" />
+    <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="Three.js" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="Tailwind CSS" />
   </div>
+
+  <h3 align="center">Divya's Portfolio</h3>
+
+  <div align="center">
+    This is my personal developer portfolio, built with Next.js, Three.js, Framer Motion, and Tailwind CSS. Here you’ll find my projects, experience, and skills in web development and data-driven applications.
+  </div>
+</div>
+
 
   <h3 align="center">Divya's Portfolio</h3>
 
@@ -648,4 +656,5 @@ All SVGs, images, and custom icons used in this project are included in the `/pu
 ## <a name="more">🚀 More</a>
 Interested in working together or seeing more projects?  
 Contact me at [mannemdivyasai@gmail.com](mailto:mannemdivyasai@gmail.com) or explore my portfolio on [GitHub](https://github.com/MannemDivyaSai/My-portfolio)
+
 
